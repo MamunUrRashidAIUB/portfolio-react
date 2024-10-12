@@ -1,9 +1,11 @@
 import Header from "./components/Header";
+import Intro from "./components/intro";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-black">
       <Header />
+      <Intro />
     </div>
   );
 };
