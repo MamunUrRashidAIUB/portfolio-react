@@ -13,7 +13,7 @@ const Intro = () => {
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.2, // Delay based on the index
+        delay: i * 0.2, 
         duration: 0.3,
       },
     }),
@@ -53,8 +53,8 @@ const Intro = () => {
               initial="hidden"
               whileHover="hover"
               whileTap="tap"
-              animate="visible" // Change here
-              custom={i} // Pass index as custom prop
+              animate="visible" 
+              custom={i} 
               className="inline-block"
             >
               {l}
@@ -72,7 +72,7 @@ const Intro = () => {
               whileHover="hover"
               whileTap="tap"
               animate="visible"
-              custom={i + text1.length} // Adjusted delay based on previous text length
+              custom={i + text1.length} 
               className="inline-block"
             >
               {l}
@@ -87,7 +87,7 @@ const Intro = () => {
               whileHover="hover"
               whileTap="tap"
               animate="visible"
-              custom={i + text1.length + text2Part1.length} // Adjusted delay based on previous text lengths
+              custom={i + text1.length + text2Part1.length} 
               className="inline-block"
             >
               {l}
@@ -105,7 +105,7 @@ const Intro = () => {
               whileHover="hover"
               whileTap="tap"
               animate="visible"
-              custom={i + text1.length + text2Part1.length + text2Part2.length} // Adjusted delay based on previous text lengths
+              custom={i + text1.length + text2Part1.length + text2Part2.length} 
               className="inline-block"
             >
               {l}
@@ -126,7 +126,7 @@ const Intro = () => {
                 text2Part1.length +
                 text2Part2.length +
                 text3Part1.length
-              } // Adjusted delay based on previous text lengths
+              } 
               className="inline-block"
             >
               {l}
