@@ -8,7 +8,15 @@ const Intro = () => {
   const text3Part2 = "Developer";
 
   const spanVariants = {
-    visible: { y: 0, scaleY: 1 },
+    hidden: { opacity: 0, y: -20 },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.2, // Delay based on the index
+        duration: 0.3,
+      },
+    }),
     hover: {
       y: [-1, -2, -2.8, 0.9],
       scaleY: [1, 1.3, 0.8, 1, 1.2],
@@ -42,10 +50,11 @@ const Intro = () => {
             <motion.span
               key={i}
               variants={spanVariants}
-              initial="visible"
+              initial="hidden"
               whileHover="hover"
-              whileTap="tap" // Added for click animation
-              animate="visible"
+              whileTap="tap"
+              animate="visible" // Change here
+              custom={i} // Pass index as custom prop
               className="inline-block"
             >
               {l}
@@ -59,10 +68,11 @@ const Intro = () => {
             <motion.span
               key={i}
               variants={spanVariants}
-              initial="visible"
+              initial="hidden"
               whileHover="hover"
-              whileTap="tap" // Added for click animation
+              whileTap="tap"
               animate="visible"
+              custom={i + text1.length} // Adjusted delay based on previous text length
               className="inline-block"
             >
               {l}
@@ -73,10 +83,11 @@ const Intro = () => {
             <motion.span
               key={i}
               variants={spanVariants}
-              initial="visible"
+              initial="hidden"
               whileHover="hover"
-              whileTap="tap" // Added for click animation
+              whileTap="tap"
               animate="visible"
+              custom={i + text1.length + text2Part1.length} // Adjusted delay based on previous text lengths
               className="inline-block"
             >
               {l}
@@ -90,10 +101,11 @@ const Intro = () => {
             <motion.span
               key={i}
               variants={spanVariants}
-              initial="visible"
+              initial="hidden"
               whileHover="hover"
-              whileTap="tap" // Added for click animation
+              whileTap="tap"
               animate="visible"
+              custom={i + text1.length + text2Part1.length + text2Part2.length} // Adjusted delay based on previous text lengths
               className="inline-block"
             >
               {l}
@@ -104,10 +116,17 @@ const Intro = () => {
             <motion.span
               key={i}
               variants={spanVariants}
-              initial="visible"
+              initial="hidden"
               whileHover="hover"
-              whileTap="tap" // Added for click animation
+              whileTap="tap"
               animate="visible"
+              custom={
+                i +
+                text1.length +
+                text2Part1.length +
+                text2Part2.length +
+                text3Part1.length
+              } // Adjusted delay based on previous text lengths
               className="inline-block"
             >
               {l}
