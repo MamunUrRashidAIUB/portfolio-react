@@ -1,17 +1,16 @@
-
 import Header from "./components/Header";
 import Intro from "./components/intro";
+import MyPortfolio from "./components/MyPortfolio";
+
 
 const App = () => {
   return (
     <div>
       <div>
         <Header />
-      </div>
-      <div className="">
         <Intro />
+        <MyPortfolio />
       </div>
-      
     </div>
   );
 };
