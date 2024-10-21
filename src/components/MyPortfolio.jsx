@@ -13,7 +13,7 @@ const MyPortfolio = () => {
         <span className="mx-2"></span>
         {renderAnimatedText(textpart2, textpart1.length)}
         </h2>
-        <p>hello</p>
+        <p>hello </p>
       </div>
     </div>
   );
