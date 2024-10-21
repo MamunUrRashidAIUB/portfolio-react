@@ -1,11 +1,18 @@
 import { motion } from "framer-motion";
 
+import Button from "./Button";
+
+
 const Intro = () => {
   const text1 = "Hi";
   const text2Part1 = "I'm";
   const text2Part2 = "Rashid,";
   const text3Part1 = "Web";
   const text3Part2 = "Developer";
+
+  const handleButtonClick = () => {
+    console.log('Button clicked!');
+  };
 
   const spanVariants = {
     hidden: { opacity: 0, y: -8 },
@@ -42,7 +49,7 @@ const Intro = () => {
   };
 
   return (
-    <div className="h-screen p-12 sm:p-16 md:p-40 lg:p-40 text-white">
+    <div className="h-screen p-12 sm:p-16 md:p-40 lg:p-40 text-white bg-black">
       <div className="font-comforter">
         {/* Hi Text */}
         <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-8xl font-bold">
@@ -133,8 +140,15 @@ const Intro = () => {
             </motion.span>
           ))}
         </h1>
-        <h1 className="pt-10 pl-3">Full-Stack Developer | React.js</h1>
+        <h1 className="pt-10 pl-3 pb-3">Full-Stack Developer | React.js|</h1>
+     
+         
       </div>
+      <div className="pl-3">
+      <Button text="Contact Me" onClick={handleButtonClick} className="mt-4" />
+
+      </div>
+      
     </div>
   );
 };
