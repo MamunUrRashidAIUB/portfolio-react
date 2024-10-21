@@ -8,7 +8,7 @@ const Intro = () => {
   const text3Part2 = "Developer";
 
   const spanVariants = {
-    hidden: { opacity: 0, y: -20 },
+    hidden: { opacity: 0, y: -8 },
     visible: (i) => ({
       opacity: 1,
       y: 0,
