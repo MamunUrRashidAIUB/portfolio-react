@@ -6,12 +6,12 @@ const Nav = () => {
 
   return (
     <div className="relative">
-      <div className="hidden md:flex space-x-4 md:space-x-10 lg:space-x-20 pr-8">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#blogs">Blogs</a>
-        <a href="#contact">Contact</a>
+      <div className="hidden md:flex space-x-4 md:space-x-10 lg:space-x-20 pr-8  ">
+        <a href="#home" className="hover:text-cyan-400">Home</a>
+        <a href="#about"className="hover:text-cyan-400">About</a>
+        <a href="#projects"className="hover:text-cyan-400">Projects</a>
+        <a href="#blogs"className="hover:text-cyan-400">Blogs</a>
+        <a href="#contact"className="hover:text-cyan-400">Contact</a>
       </div>
       <button
         onClick={toggleNavbar}
@@ -24,11 +24,11 @@ const Nav = () => {
           isOpen ? "opacity-100 max-h-screen" : "opacity-0 max-h-0"
         }`}
       >
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#blogs">Blogs</a>
-        <a href="#contact">Contact</a>
+        <a href="#home"className="hover:text-cyan-400">Home</a>
+        <a href="#about"className="hover:text-cyan-400">About</a>
+        <a href="#projects"className="hover:text-cyan-400">Projects</a>
+        <a href="#blogs"className="hover:text-cyan-400">Blogs</a>
+        <a href="#contact"className="hover:text-cyan-400">Contact</a>
       </div>
     </div>
   );
