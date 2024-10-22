@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Personal Portfolio",
+      "description": "A personal portfolio website to showcase my projects and skills, built using React and Tailwind CSS.",
+      "technologies": ["React", "Tailwind CSS", "JavaScript"],
+      "image": "portfolio1.png",  
+      "link": "https://myportfolio.com"
+    },
+    {
+      "id": 2,
+      "title": "E-commerce Platform",
+      "description": "An e-commerce platform with features like product listings, shopping cart, and payment gateway integration.",
+      "technologies": ["PHP", "MySQL", "JavaScript"],
+      "image": "ecommerce.png",
+      "link": "https://myecommerce.com"
+    },
+    {
+      "id": 3,
+      "title": "Blog Application",
+      "description": "A simple blog application where users can post, edit, and delete blogs. Admin can manage the content.",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "image": "blogapp.png",
+      "link": "https://myblogapp.com"
+    }
+  ]
+  

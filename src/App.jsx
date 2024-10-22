@@ -1,8 +1,7 @@
 import Header from "./components/Header";
-import Intro from "./components/intro";
+import Intro from "./components/Intro";
 import MyPortfolio from "./components/MyPortfolio";
-
-
+import Projects from "./components/Projects";
 const App = () => {
   return (
     <div>
@@ -10,6 +9,7 @@ const App = () => {
         <Header />
         <Intro />
         <MyPortfolio />
+        <Projects />
       </div>
     </div>
   );
