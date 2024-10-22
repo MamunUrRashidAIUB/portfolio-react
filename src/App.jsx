@@ -4,6 +4,7 @@ import Intro from "./components/Intro";
 import MyPortfolio from "./components/MyPortfolio";
 import Projects from "./components/Projects";
 import Currentwork from "./components/Currentwork";
+import Contact from "./components/Contact";
 const App = () => {
   const [showProjectsOnly, setShowProjectsOnly] = useState(false);
   const handleShowProjects = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <MyPortfolio onSeeMyWorkClick={handleShowProjects} />
           <Projects />
           <Currentwork />
+          <Contact />
         </>
       )}
       {showProjectsOnly && <Projects />}

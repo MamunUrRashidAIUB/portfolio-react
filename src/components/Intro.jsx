@@ -23,7 +23,7 @@ const Intro = () => {
       <div className="p-6 sm:p-12 md:p-16 lg:pl-30 text-white bg-black">
         <div className="font-comforter">
           {/* Hi Text */}
-          <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-8xl font-bold">
+          <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-8xl font-bold ">
             {renderAnimatedText(text1)}
           </h1>
 
