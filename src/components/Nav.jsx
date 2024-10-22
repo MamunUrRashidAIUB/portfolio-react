@@ -1,11 +1,19 @@
 import { useState } from "react";
 const Nav = () => {
+
+  const scrollToSection = (section) => {
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the element
+    }
+  };
+
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => setIsOpen(!isOpen);
   return (
     <div className="relative">
       <div className="hidden md:flex space-x-4 md:space-x-10 lg:space-x-20 pr-8  ">
-        <a href="#home" className="hover:text-cyan-400">Home</a>
+        <a href="#home" onClick={() => scrollToSection('home')} className="hover:text-cyan-400">Home</a>
         <a href="#about"className="hover:text-cyan-400">About</a>
         <a href="#projects"className="hover:text-cyan-400">Projects</a>
         <a href="#blogs"className="hover:text-cyan-400">Blogs</a>

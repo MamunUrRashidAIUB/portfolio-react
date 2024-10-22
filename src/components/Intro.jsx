@@ -15,7 +15,7 @@ const Intro = () => {
   };
 
   return (
-    <div>
+    <div id="home" >
       <div>
         <Lottie animationData={animation} className="absolute" />
       </div>
