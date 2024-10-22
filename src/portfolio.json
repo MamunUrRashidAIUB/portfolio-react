@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Job Portal",
+      "description": "A Job Portal Windows application to showcase my projects and skills, built using C# and Windows forms.",
+      "technologies": ["C#", "Windows Form"],
+      "image": "csharpreact.png", 
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "Edusity",
+      "description": "A University website sample to showcase my projects and skills, built using React and Node.js.",
+      "technologies": ["React.js", "JavaScript"],
+      "image": "educityreact.png",
+      "link": "https://educity-eta.vercel.app/"
+    },
+    {
+      "id": 3,
+      "title": "Simple Login ",
+      "description": "A simple login for just for practice",
+      "technologies": ["HTML", "tailwind"],
+      "image": "logintemp.png",
+      "link": "https://login-page-template1.vercel.app/"
+    }
+  ]
+  
