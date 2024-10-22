@@ -1,9 +1,7 @@
 import { useState } from "react";
-
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => setIsOpen(!isOpen);
-
   return (
     <div className="relative">
       <div className="hidden md:flex space-x-4 md:space-x-10 lg:space-x-20 pr-8  ">
@@ -33,5 +31,4 @@ const Nav = () => {
     </div>
   );
 };
-
 export default Nav;
