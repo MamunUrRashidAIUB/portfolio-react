@@ -3,10 +3,9 @@ import animation from "./animation/developer.json";
 import Lottie from "lottie-react";
 
 const Skills = () => {
-
-    const text1 = "My,";
-    const text2 = "Myself,";
-    const text3 = "& I ";
+  const text1 = "Skills";
+  const text2 = "&,";
+  const text3 = "Experience"; 
   return (
     <div
       id="skills"
@@ -25,29 +24,27 @@ const Skills = () => {
         </div>
         <div className="mt-20">
           <p>
-            I’m a Full-Stack Developer located in Bangladesh. I have a serious
-            passion for web technologies and creating intuitive, dynamic user
-            experiences
+            Since beginning my journey as a freelance developer, I’ve done
+            remote work for agencies and collaborated with talented people to
+            create web products for both business and consumer use.
             <br />
             <br />
             <span className="block mb-2">
-              Well-organised person, problem solver, independent employee with
-              high attention to detail. Fan of sports, outdoor activities, TV
-              series and song.
+              I create successful responsive websites that are fast, easy to
+              use, and built with best practices. The area of my expertise is
+              full-stack development: HTML, CSS, JS, Node, building small and
+              medium web apps, features, animations, and coding interactive
+              layouts.
             </span>
             <br />
-            Interested in the entire full-stack spectrum and working on
-            ambitious projects with positive people. I have started my journey
-            when I was a 14 years old kid. I was always fond of
-            programming/coding from the early age. My journey was full of
-            stumbling but I never gave up. From that journey till now I am
-            learning every little things to improve me.
+            I have more than 2 years of experience in this field. As well as I
+            have taken courses from diffrent platform such as Coursera,
+            Codecademy and so on. I have a lot of projects from static to full
+            fledged Web Application. You can check my Works.
             <br />
             <br />
             <span className="block mb-2">
-              I like to build things on the web. And I am building diffrents
-              application everyday to keep my skills in practtice. As well as
-              looking for work to build amazing web app for my clients
+            Visit my Github profile for more details or just contact me.
             </span>
           </p>
         </div>
@@ -56,7 +53,7 @@ const Skills = () => {
         <Lottie animationData={animation} className="w-full max-w-md" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
