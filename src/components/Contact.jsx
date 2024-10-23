@@ -82,7 +82,7 @@ const Contact = () => {
         </div>
        
       </div>
-      <Connectwithme />
+    
     </section>
   );
 };

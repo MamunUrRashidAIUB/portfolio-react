@@ -3,7 +3,6 @@ import Lottie from "lottie-react";
 import animation from "./animation/facebook.json";
 import animation2 from "./animation/github.json";
 
-
 const ConnectWithMe = () => {
   const text1 = "Connect";
   const text2 = "With";
@@ -11,7 +10,7 @@ const ConnectWithMe = () => {
   return (
     <div>
       <div>
-        <h1 className="text-4xl text-center uppercase text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold pb-5">
+        <h1 className="text-4xl pl-14 bg-black uppercase text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold pb-5 ">
           {renderAnimatedText(text1)}
           <span className="mx-2"></span>
           {renderAnimatedText(text2)}
@@ -19,12 +18,20 @@ const ConnectWithMe = () => {
           {renderAnimatedText(text3)}
         </h1>
       </div>
-      <div className="bg-slate-900 border border-cyan-400 rounded-md font-bold text-white p-5">
+      <div className="bg-slate-900   border-cyan-400  font-bold text-white p-5">
         <div className="flex justify-center items-center">
-          <a href="https://www.facebook.com/profile.php?id=100026601601848" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.facebook.com/profile.php?id=100026601601848"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Lottie animationData={animation} className="w-10 h-14" />
           </a>
-          <a href="https://github.com/MamunUrRashidAIUB" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/MamunUrRashidAIUB"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Lottie animationData={animation2} className="w-10 h-14" />
           </a>
         </div>
@@ -37,7 +44,8 @@ const ConnectWithMe = () => {
           </span>
           <p>Phone: +880 1880 299 555</p>
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} All Rights Reserved. | Developed by Rashid
+            &copy; {new Date().getFullYear()} All Rights Reserved. | Developed
+            by Rashid
           </p>
         </div>
       </div>
