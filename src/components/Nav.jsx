@@ -18,8 +18,8 @@ const Nav = () => {
         <Link to="projects" className="cursor-pointer hover:text-cyan-400">
           Projects
         </Link>
-        <Link to="blogs" className="cursor-pointer hover:text-cyan-400">
-          Blogs
+        <Link to="skills" className="cursor-pointer hover:text-cyan-400">
+          Skills
         </Link>
         <Link to="contact" className="cursor-pointer hover:text-cyan-400">
           Contact

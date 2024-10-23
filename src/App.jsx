@@ -6,6 +6,8 @@ import Currentwork from "./components/Currentwork";
 import Contact from "./components/Contact";
 import ConnectWithMe from "./components/Connectwithme";
 import { Switch, Route } from "react-router-dom";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -20,9 +22,9 @@ const App = () => {
           <Contact />
           <ConnectWithMe />
         </Route>
-        <Route path="/myportfolio" component={MyPortfolio} />
+        <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
-        <Route path="/currentwork" component={Currentwork} />
+        <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/connectwithme" component={ConnectWithMe} />
       </Switch>
