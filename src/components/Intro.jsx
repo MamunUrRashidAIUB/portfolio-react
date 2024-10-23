@@ -2,8 +2,12 @@ import { renderAnimatedText } from "./TextAnimation";
 import Button from "./Button";
 import animation from "./animation/Animation - 1729607915612.json";
 import Lottie from "lottie-react";
+import{useHistory} from "react-router-dom";
 
 const Intro = () => {
+
+const history = useHistory();
+
   const text1 = "Hi";
   const text2Part1 = "I'm";
   const text2Part2 = "Rashid,";
@@ -11,7 +15,7 @@ const Intro = () => {
   const text3Part2 = "Developer";
 
   const handleButtonClick = () => {
-    console.log("Button clicked!");
+    history.push("/contact");
   };
 
   return (

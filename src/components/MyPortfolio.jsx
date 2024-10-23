@@ -1,7 +1,15 @@
 import { renderAnimatedText } from "./TextAnimation";
 import Button from "./Button";
+import{useHistory} from "react-router-dom";
 
-const MyPortfolio = ({ onSeeMyWorkClick }) => {
+const MyPortfolio = () => {
+
+const history = useHistory();
+const handleButtonClick =()=>{
+
+  history.push("/projects");
+}
+
   const textpart1 = "My";
   const textpart2 = "Portfolio";
 
@@ -22,7 +30,7 @@ const MyPortfolio = ({ onSeeMyWorkClick }) => {
         </p>
       </div>
       <div className="p-10 pl-20">
-        <Button text="SEE MY WORK" onClick={onSeeMyWorkClick} className="mt-4" />
+        <Button text="SEE MY WORK" onClick={handleButtonClick} className="mt-4" />
       </div>
     </div>
   );
