@@ -10,7 +10,7 @@ const Currentwork = () => {
   const textpart4 = "  on";
 
   return (
-    <div className="p-6 sm:p-12 text-white bg-black lg:pl-30 flex flex-col lg:flex-row">
+    <div id="currentwork" className="p-6 sm:p-12 text-white bg-black lg:pl-30 flex flex-col lg:flex-row">
       <div className="flex-1">
         <div className="font-comforter">
           <h2 className="text-4xl  text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold">
