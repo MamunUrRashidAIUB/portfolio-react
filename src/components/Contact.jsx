@@ -1,5 +1,5 @@
 import Button from "./Button";
-import Connectwithme from "./Connectwithme";
+
 import { renderAnimatedText } from "./TextAnimation";
 
 const Contact = () => {

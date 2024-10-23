@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
 
@@ -16,11 +17,11 @@ const Nav = () => {
     <div className="relative">
       {/* Desktop Navigation */}
       <div className="hidden md:flex space-x-4 md:space-x-10 lg:space-x-20 pr-8">
-        <a onClick={() => scrollToSection('home')} className="cursor-pointer hover:text-cyan-400">Home</a>
-        <a onClick={() => scrollToSection('about')} className="cursor-pointer hover:text-cyan-400">About</a>
-        <a onClick={() => scrollToSection('projects')} className="cursor-pointer hover:text-cyan-400">Projects</a>
-        <a onClick={() => scrollToSection('blogs')} className="cursor-pointer hover:text-cyan-400">Blogs</a>
-        <a onClick={() => scrollToSection('contact')} className="cursor-pointer hover:text-cyan-400">Contact</a>
+        <Link to="/" onClick={() => scrollToSection('home')} className="cursor-pointer hover:text-cyan-400">Home</Link>
+        <Link to="about" onClick={() => scrollToSection('about')} className="cursor-pointer hover:text-cyan-400">About</Link>
+        <Link to="projects" onClick={() => scrollToSection('projects')} className="cursor-pointer hover:text-cyan-400">Projects</Link>
+        <Link to="blogs" onClick={() => scrollToSection('blogs')} className="cursor-pointer hover:text-cyan-400">Blogs</Link>
+        <Link to="contact" onClick={() => scrollToSection('contact')} className="cursor-pointer hover:text-cyan-400">Contact</Link>
       </div>
 
       {/* Mobile Menu Button */}
