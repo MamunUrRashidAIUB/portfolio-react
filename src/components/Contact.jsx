@@ -68,7 +68,7 @@ const Contact = () => {
             loading="lazy"
           ></iframe>
           {/* Location Details Overlay */}
-          <div className="absolute top-4 left-4 bg-cyan-400 bg-opacity-80 p-4 rounded-lg shadow-md text-black">
+          <div className="absolute top-4 left-4 bg-cyan-400 bg-opacity-80 p-4 rounded-lg shadow-md text-black text-sm sm:text-base sm:top-4 sm:left-4">
             <p><strong>Location:</strong>Bashundhora , Dhaka ,Bangladesh</p>
             <p><strong>Phone:</strong>+880 1880299555</p>
             <p><strong>Email:</strong>md.mamun.ur.rashid.cse@gmail.com</p>
