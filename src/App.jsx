@@ -6,26 +6,15 @@ import Projects from "./components/Projects";
 import Currentwork from "./components/Currentwork";
 import Contact from "./components/Contact";
 const App = () => {
-  const [showProjectsOnly, setShowProjectsOnly] = useState(false);
-  const handleShowProjects = () => {
-    setShowProjectsOnly(true);
-  };
-  const handleShowHome = () => {
-    setShowProjectsOnly(false);
-  };
+  
   return (
     <div>
-      <Header onHomeClick={handleShowHome} />
-      {!showProjectsOnly && (
-        <>
+      <Header  />
           <Intro />
-          <MyPortfolio onSeeMyWorkClick={handleShowProjects} />
+          <MyPortfolio  />
           <Projects />
           <Currentwork />
           <Contact />
-        </>
-      )}
-      {showProjectsOnly && <Projects />}
     </div>
   );
 };
