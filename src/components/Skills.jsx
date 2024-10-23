@@ -1,6 +1,6 @@
+import Skillbar from "./Skillbar";
 import { renderAnimatedText } from "./TextAnimation";
-import animation from "./animation/developer.json";
-import Lottie from "lottie-react";
+
 
 const Skills = () => {
   const text1 = "Skills";
@@ -50,7 +50,10 @@ const Skills = () => {
         </div>
       </div>
       <div className="  flex-1 flex justify-center  lg:pl-8">
-        <Lottie animationData={animation} className="w-full max-w-md" />
+       <Skillbar></Skillbar>
+
+
+       
       </div>
     </div>
   );
