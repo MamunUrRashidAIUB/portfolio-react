@@ -1,11 +1,10 @@
 import Skillbar from "./Skillbar";
 import { renderAnimatedText } from "./TextAnimation";
 
-
 const Skills = () => {
   const text1 = "Skills";
   const text2 = "&,";
-  const text3 = "Experience"; 
+  const text3 = "Experience";
   return (
     <div
       id="skills"
@@ -13,7 +12,7 @@ const Skills = () => {
     >
       <div className="flex-1">
         <div className="font-comforter">
-          <h2 className="text-4xl  text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold">
+          <h2 className="text-5xl  text-cyan-400 sm:text-7xl md:text-7xl lg:text-6xl font-bold">
             {renderAnimatedText(text1)}
             <span className="mx-2"></span>
             {renderAnimatedText(text2)}
@@ -44,16 +43,13 @@ const Skills = () => {
             <br />
             <br />
             <span className="block mb-2">
-            Visit my Github profile for more details or just contact me.
+              Visit my Github profile for more details or just contact me.
             </span>
           </p>
         </div>
       </div>
       <div className="  flex-1 flex justify-center  lg:pl-8">
-       <Skillbar></Skillbar>
-
-
-       
+        <Skillbar></Skillbar>
       </div>
     </div>
   );

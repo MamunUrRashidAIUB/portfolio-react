@@ -10,7 +10,7 @@ const Contact = () => {
     <section id="contact" className="bg-black text-white p-6  sm:p-12 min-h-screen">
       <div className="flex flex-col md:flex-row">
         <div className="contact-form bg-black p-6 rounded-lg shadow-lg md:w-1/2 md:mr-4">
-          <h2 className="uppercase text-4xl text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold pb-5">
+          <h2 className="uppercase text-4xl text-cyan-400 sm:text-6xl md:text-4xl lg:text-6xl font-bold pb-5">
             {renderAnimatedText(text1)}
             <span className="mx-2"></span>
             {renderAnimatedText(text2)}
