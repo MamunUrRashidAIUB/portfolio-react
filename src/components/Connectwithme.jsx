@@ -8,7 +8,7 @@ const ConnectWithMe = () => {
   const text2 = "With";
   const text3 = "Me";
   return (
-    <div>
+    <div id="connectwithme">
       <div>
         <h1 className="text-4xl pl-14 bg-black uppercase text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold pb-5 ">
           {renderAnimatedText(text1)}

@@ -5,16 +5,23 @@ import Projects from "./components/Projects";
 import Currentwork from "./components/Currentwork";
 import Contact from "./components/Contact";
 import ConnectWithMe from "./components/Connectwithme";
-import { Switch, Route } from "react-router-dom";  // Use Switch for v5
+import { Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <Header />
       <Switch>
-        <Route exact path="/" component={Intro} />
+        <Route exact path="/">
+          <Intro />
+          <MyPortfolio />
+          <Projects />
+          <Currentwork />
+          <Contact />
+          <ConnectWithMe />
+        </Route>
         <Route path="/myportfolio" component={MyPortfolio} />
-        <Route path="/project" component={Projects} />
+        <Route path="/projects" component={Projects} />
         <Route path="/currentwork" component={Currentwork} />
         <Route path="/contact" component={Contact} />
         <Route path="/connectwithme" component={ConnectWithMe} />
