@@ -10,7 +10,7 @@ const Projects = () => {
             className="group relative p-1 rounded-lg shadow-lg border-cyan-400 overflow-hidden"
           >
             <img
-              src={`../src/Photos/${project.image}`}
+              src={project.image}
               alt={project.title}
               className="w-full h-48 object-cover mb-2 transition-transform duration-500 ease-in-out group-hover:blur-sm group-hover:scale-105"
             />
