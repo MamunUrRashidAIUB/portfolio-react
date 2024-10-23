@@ -1,5 +1,3 @@
-import { map, image, title, link } from "framer-motion/client";
-import React from "react";
 import portfoliodata from "../portfolio.json";
 
 const Projects = () => {
@@ -39,8 +37,10 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block"
               >
-                <span className="absolute top-0 left-0 flex w-0 h-full transition-all duration-300 ease-out transform group-hover:w-full bg-cyan-400 opacity-90"></span>
-                <span className="relative group-hover:text-black">View Project</span>
+                <span className="absolute top-0 left-0 flex w-0 h-full transition-all duration-700 ease-out transform group-hover:w-full bg-cyan-400 opacity-90"></span>
+                <span className="relative group-hover:text-black">
+                  View Project
+                </span>
               </a>
             </div>
           </div>
@@ -51,4 +51,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

@@ -52,8 +52,10 @@ const Contact = () => {
               required
               className="w-full p-2 mb-4 border border-cyan-600 rounded bg-black text-white placeholder-gray-400 focus:outline-none focus:border-cyan-400"
             ></textarea>
-
-            <Button text="Send" />
+<div className="p-6 pl-10 ">
+<Button className="" text="Send" />
+</div>
+           
           </form>
         </div>
 

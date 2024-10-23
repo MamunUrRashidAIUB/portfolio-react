@@ -21,7 +21,7 @@ const MyPortfolio = ({ onSeeMyWorkClick }) => {
           entire list. Interested to see some more? Visit my work page.
         </p>
       </div>
-      <div className="pl-3">
+      <div className="p-10 pl-20">
         <Button text="SEE MY WORK" onClick={onSeeMyWorkClick} className="mt-4" />
       </div>
     </div>

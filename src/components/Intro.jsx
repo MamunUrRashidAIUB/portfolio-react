@@ -53,7 +53,7 @@ const Intro = () => {
           <h1 className="pt-10 pl-3 pb-3">Full-Stack Developer | React.js|</h1>
         </div>
 
-        <div className="pl-3">
+        <div className="p-6 pl-14">
           <Button
             text="Contact Me"
             onClick={handleButtonClick}

@@ -2,12 +2,15 @@
 
 const Button = ({ text, onClick, className }) => {
   return (
-    <button
-      onClick={onClick}
-      className={ `relative border-2 border-cyan-400 bg-transparent py-2.5 px-5 font-medium uppercase text-white-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-slate-100 before:transition-transform before:duration-300 before:content-[''] hover:text-cyan-400 before:hover:scale-x-100 ${className}`}
-    >
-      {text}
-    </button>
+    <div className=" group-hover:opacity-100 absolute transform -translate-x-1/2 -translate-y-1/2">
+      <button
+        onClick={onClick}
+        className={`px-5 py-2 relative rounded group overflow-hidden font-medium border border-cyan-400 bg-black text-cyan-400 inline-block ${className}`}
+      >
+        <span className="absolute top-0 left-0 flex w-0 h-full transition-all duration-700 ease-out transform group-hover:w-full bg-cyan-400 opacity-90"></span>
+        <span className="relative group-hover:text-black">{text}</span>
+      </button>
+    </div>
   );
 };
 
