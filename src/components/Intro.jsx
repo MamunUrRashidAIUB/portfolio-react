@@ -51,7 +51,9 @@ const Intro = () => {
                 text3Part1.length,
             )}
           </h1>
-          <h1 className="pb-3 pl-3 pt-10">Full-Stack Developer | React.js|</h1>
+          <h1 className="pb-3 pl-3 pt-10">
+            Full-Stack Developer | React.js| Tailwind CSS| JavaScript
+          </h1>
 
           <div className="p-6 pl-16">
             <Button
@@ -63,7 +65,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="flex flex-1 justify-center  lg:pl-8">
+      <div className="flex flex-1 justify-center lg:pl-8">
         <Lottie animationData={animation} className="h-full w-full" />
       </div>
     </div>

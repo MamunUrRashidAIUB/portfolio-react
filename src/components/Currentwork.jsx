@@ -35,12 +35,12 @@ const Currentwork = () => {
             <span className="mb-2 block">
               For over years after years, I have done many projects, some on my
               own and some with amazing people around the globe. Working for
-              companies and individuals around the globe, I met and learned from
-              amazing and ambitious people.
+              University Projects and individuals Practice, I learned from many
+              big brothers and friends.
             </span>
             <br />
-            I currently work remotely with a selected freelance client base and
-            am open to new opportunities.
+            i'm not currently working but i want to work and learn more. i'm
+            open to new opportunities.
             <br />
             <br />
             <span className="mb-2 block">
