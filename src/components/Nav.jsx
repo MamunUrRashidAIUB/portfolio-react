@@ -6,9 +6,12 @@ const Nav = () => {
   const toggleNavbar = () => setIsOpen(!isOpen);
 
   return (
-    <div className="relative">
+    <nav className="flex w-full items-center justify-between px-4">
+      {/* Left Side - Your Name */}
+      <div className="text-2xl font-bold text-white">RASHID</div>
+
       {/* Desktop Navigation */}
-      <div className="hidden md:flex space-x-4 md:space-x-10 lg:space-x-20 pr-8">
+      <div className="hidden space-x-4 md:flex md:space-x-10 lg:space-x-20">
         <Link to="/" className="cursor-pointer hover:text-cyan-400">
           Home
         </Link>
@@ -29,15 +32,15 @@ const Nav = () => {
       {/* Mobile Menu Button */}
       <button
         onClick={toggleNavbar}
-        className="text-white text-2xl pt-4 pr-4 flex md:hidden items-center justify-end w-full"
+        className="md:hidden text-2xl text-white"
       >
         {isOpen ? "✕" : "|||"}
       </button>
 
       {/* Mobile Navigation */}
       <div
-        className={`md:hidden flex basis-full flex-col items-center space-y-4 text-white p-4 transition-all duration-700 ease-in-out transform ${
-          isOpen ? "opacity-100 max-h-screen" : "opacity-0 max-h-0"
+        className={`absolute top-16 left-0 w-full flex-col items-center bg-black py-4 text-white transition-all duration-700 ease-in-out md:hidden ${
+          isOpen ? "flex opacity-100" : "hidden opacity-0"
         }`}
       >
         <Link to="/" className="cursor-pointer hover:text-cyan-400">
@@ -50,13 +53,13 @@ const Nav = () => {
           Projects
         </Link>
         <Link to="/skills" className="cursor-pointer hover:text-cyan-400">
-        Skills
+          Skills
         </Link>
         <Link to="/contact" className="cursor-pointer hover:text-cyan-400">
           Contact
         </Link>
       </div>
-    </div>
+    </nav>
   );
 };
 
