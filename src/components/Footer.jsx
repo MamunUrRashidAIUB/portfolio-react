@@ -1,11 +1,9 @@
-
 const Footer = () => {
   return (
     <div>
       {" "}
-      <div className="bg-slate-900   border-cyan-400  font-bold text-white p-5">
-        
-        <div className="flex flex-col justify-center items-center">
+      <div className="border-cyan-400 bg-slate-900 p-5 font-bold text-white">
+        <div className="flex flex-col items-center justify-center">
           <span>
             Email:
             <a href="mailto:md.mamun.ur.rashid.cse@gmail.com">

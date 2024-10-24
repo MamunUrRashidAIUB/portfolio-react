@@ -1,4 +1,3 @@
-
 import { renderAnimatedText } from "./TextAnimation";
 import animation from "./animation/developer.json";
 import Lottie from "lottie-react";
@@ -10,10 +9,13 @@ const Currentwork = () => {
   const textpart4 = "  on";
 
   return (
-    <div id="currentwork" className="p-6 sm:p-12 text-white bg-black lg:pl-30 flex flex-col lg:flex-row">
+    <div
+      id="currentwork"
+      className="lg:pl-30 flex flex-col bg-black p-6 text-white sm:p-12 lg:flex-row"
+    >
       <div className="flex-1">
         <div className="font-comforter">
-          <h2 className="text-4xl  text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold">
+          <h2 className="text-4xl font-bold text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl">
             {renderAnimatedText(textpart1)}
             <span className="mx-2"></span>
             {renderAnimatedText(textpart2)}
@@ -30,7 +32,7 @@ const Currentwork = () => {
             CSS and HTML as standards of the current web.
             <br />
             <br />
-            <span className="block mb-2">
+            <span className="mb-2 block">
               For over years after years, I have done many projects, some on my
               own and some with amazing people around the globe. Working for
               companies and individuals around the globe, I met and learned from
@@ -41,13 +43,13 @@ const Currentwork = () => {
             am open to new opportunities.
             <br />
             <br />
-            <span className="block mb-2">
+            <span className="mb-2 block">
               More about my experience and work you'll find on Skills and About.
             </span>
           </p>
         </div>
       </div>
-      <div className="  flex-1 flex justify-center  lg:pl-8">
+      <div className="flex flex-1 justify-center lg:pl-8">
         <Lottie animationData={animation} className="w-full max-w-md" />
       </div>
     </div>
