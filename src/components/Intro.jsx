@@ -20,9 +20,9 @@ const history = useHistory();
 
   return (
     <div id="home" >
-      <div>
+     
         <Lottie animationData={animation} className="absolute top-0 left-0 w-screen h-screen z-negative filter brightness-50" />
-      </div>
+     
       {/* Intro Section */}{" "}
       <div className="p-6 sm:p-12 md:p-16 lg:pl-30 text-white bg-black">
         <div className="font-comforter">
