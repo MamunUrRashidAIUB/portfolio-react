@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div>
       {" "}
-      <div className="border-cyan-400 bg-slate-900 p-5 font-bold text-white">
+      <div className="border-cyan-400 bg-slate-900 p-10 font-bold text-white">
         <div className="flex flex-col items-center justify-center">
           <span>
             Email:
