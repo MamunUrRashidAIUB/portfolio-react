@@ -9,6 +9,7 @@ import { Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Skills from "./components/Skills";
 
+
 const App = () => {
   return (
     <>

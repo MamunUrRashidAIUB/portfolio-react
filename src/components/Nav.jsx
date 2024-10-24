@@ -12,16 +12,16 @@ const Nav = () => {
         <Link to="/" className="cursor-pointer hover:text-cyan-400">
           Home
         </Link>
-        <Link to="about" className="cursor-pointer hover:text-cyan-400">
+        <Link to="/about" className="cursor-pointer hover:text-cyan-400">
           About
         </Link>
-        <Link to="projects" className="cursor-pointer hover:text-cyan-400">
+        <Link to="/projects" className="cursor-pointer hover:text-cyan-400">
           Projects
         </Link>
-        <Link to="skills" className="cursor-pointer hover:text-cyan-400">
+        <Link to="/skills" className="cursor-pointer hover:text-cyan-400">
           Skills
         </Link>
-        <Link to="contact" className="cursor-pointer hover:text-cyan-400">
+        <Link to="/contact" className="cursor-pointer hover:text-cyan-400">
           Contact
         </Link>
       </div>
@@ -40,11 +40,21 @@ const Nav = () => {
           isOpen ? "opacity-100 max-h-screen" : "opacity-0 max-h-0"
         }`}
       >
-        <a className="cursor-pointer hover:text-cyan-400">Home</a>
-        <a className="cursor-pointer hover:text-cyan-400">About</a>
-        <a className="cursor-pointer hover:text-cyan-400">Projects</a>
-        <a className="cursor-pointer hover:text-cyan-400">Blogs</a>
-        <a className="cursor-pointer hover:text-cyan-400">Contact</a>
+        <Link to="/" className="cursor-pointer hover:text-cyan-400">
+          Home
+        </Link>
+        <Link to="/about" className="cursor-pointer hover:text-cyan-400">
+          About
+        </Link>
+        <Link to="/projects" className="cursor-pointer hover:text-cyan-400">
+          Projects
+        </Link>
+        <Link to="/skills" className="cursor-pointer hover:text-cyan-400">
+        Skills
+        </Link>
+        <Link to="/contact" className="cursor-pointer hover:text-cyan-400">
+          Contact
+        </Link>
       </div>
     </div>
   );
