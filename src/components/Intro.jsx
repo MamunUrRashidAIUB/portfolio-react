@@ -1,12 +1,10 @@
 import { renderAnimatedText } from "./TextAnimation";
 import Button from "./Button";
-import animation from "./animation//program.json";
-import Lottie from "lottie-react";
-import{useHistory} from "react-router-dom";
+
+import { useHistory } from "react-router-dom";
 
 const Intro = () => {
-
-const history = useHistory();
+  const history = useHistory();
 
   const text1 = "Hi";
   const text2Part1 = "I'm";
@@ -19,10 +17,7 @@ const history = useHistory();
   };
 
   return (
-    <div id="home" >
-     
-        <Lottie animationData={animation} className="absolute top-0 left-0 w-screen h-screen z-negative filter brightness-50" />
-     
+    <div id="home">
       {/* Intro Section */}{" "}
       <div className="p-6 sm:p-12 md:p-16 lg:pl-30 text-white bg-black">
         <div className="font-comforter">
