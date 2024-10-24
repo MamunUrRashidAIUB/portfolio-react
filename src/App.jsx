@@ -8,6 +8,7 @@ import ConnectWithMe from "./components/Connectwithme";
 import { Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Currentwork />
           <Contact />
           <ConnectWithMe />
+          <Footer />
         </Route>
         <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
