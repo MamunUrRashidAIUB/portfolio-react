@@ -39,7 +39,7 @@ const Currentwork = () => {
               big brothers and friends.
             </span>
             <br />
-            i'm not currently working but i want to work and learn more. i'm
+            I'm not currently working but I want to work and learn more. I'm
             open to new opportunities.
             <br />
             <br />
