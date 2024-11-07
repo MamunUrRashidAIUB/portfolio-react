@@ -8,7 +8,10 @@ const Nav = () => {
   return (
     <nav className="flex w-full items-center justify-between px-4">
       {/* Left Side - Your Name */}
-      <div className="text-2xl font-bold text-white">RASHID</div>
+      <div className="text-2xl font-bold text-white">
+        {" "}
+        <Link to="/">RASHID</Link>{" "}
+      </div>
 
       {/* Desktop Navigation */}
       <div className="hidden space-x-4 md:flex md:space-x-10 lg:space-x-20">
@@ -30,16 +33,13 @@ const Nav = () => {
       </div>
 
       {/* Mobile Menu Button */}
-      <button
-        onClick={toggleNavbar}
-        className="md:hidden text-2xl text-white"
-      >
+      <button onClick={toggleNavbar} className="text-2xl text-white md:hidden">
         {isOpen ? "✕" : "|||"}
       </button>
 
       {/* Mobile Navigation */}
       <div
-        className={`absolute top-16 left-0 w-full flex-col items-center bg-black py-4 text-white transition-all duration-700 ease-in-out md:hidden ${
+        className={`absolute left-0 top-16 w-full flex-col items-center bg-black py-4 text-white transition-all duration-700 ease-in-out md:hidden ${
           isOpen ? "flex opacity-100" : "hidden opacity-0"
         }`}
       >
