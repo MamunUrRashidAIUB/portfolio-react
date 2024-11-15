@@ -8,26 +8,41 @@ const Nav = () => {
   return (
     <nav className="flex w-full items-center justify-between px-4">
       {/* Left Side - Your Name */}
-      <div className="text-2xl font-bold text-white">
+      <div className="border-2 px-5 text-2xl font-bold text-white">
         {" "}
         <Link to="/">RASHID</Link>{" "}
       </div>
 
       {/* Desktop Navigation */}
       <div className="hidden space-x-4 md:flex md:space-x-10 lg:space-x-20">
-        <Link to="/" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/"
+          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+        >
           Home
         </Link>
-        <Link to="/about" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/about"
+          className="cursor-pointer rounded-full border-2 border-cyan-100 px-2 hover:bg-cyan-200 hover:text-black"
+        >
           About
         </Link>
-        <Link to="/projects" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/projects"
+          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+        >
           Projects
         </Link>
-        <Link to="/skills" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/skills"
+          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+        >
           Skills
         </Link>
-        <Link to="/contact" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/contact"
+          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+        >
           Contact
         </Link>
       </div>
