@@ -30,5 +30,13 @@
     "technologies": ["PHP", "CSS", "HTML"],
     "image": "Photos/myportfolio.png",
     "link": "http://rashidontheway.rf.gd/"
+  },
+  {
+    "id": 5,
+    "title": "Perfume Shop",
+    "description": "A perfume shop website to showcase my projects and skills, built using React.js,tailwindcss",
+    "technologies": ["React.js", "tailwindcss"],
+    "image": "Photos/perfume.png",
+    "link": "https://perfumeshop-frontend.netlify.app/"
   }
 ]
