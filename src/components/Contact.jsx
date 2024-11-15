@@ -1,4 +1,5 @@
 import Button from "./Button";
+import ConnectWithMe from "./Connectwithme";
 
 import { renderAnimatedText } from "./TextAnimation";
 
@@ -89,6 +90,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ConnectWithMe />
     </section>
   );
 };

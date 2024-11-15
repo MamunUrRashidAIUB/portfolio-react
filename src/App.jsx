@@ -10,7 +10,6 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 
-
 const App = () => {
   return (
     <>
@@ -22,14 +21,13 @@ const App = () => {
           <Projects />
           <Currentwork />
           <Contact />
-          <ConnectWithMe />
+
           <Footer />
         </Route>
         <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-        <Route path="/connectwithme" component={ConnectWithMe} />
       </Switch>
     </>
   );
