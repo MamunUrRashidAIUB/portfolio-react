@@ -25,7 +25,7 @@ const Contact = () => {
             </h2>
             <p className="pb-4 text-red-500">
               *** This is currently not working. You can contact me through my
-              LinkedIn, Facebook, or email. scroll down to see the links.***
+              LinkedIn, Facebook, or email.***
             </p>
 
             <form action="#" method="post">
