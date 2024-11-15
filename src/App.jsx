@@ -8,10 +8,12 @@ import ConnectWithMe from "./components/Connectwithme";
 import { Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Notice from "./components/Notice";
 
 const App = () => {
   return (
     <>
+    <Notice/>
       <Header />
       <Switch>
         <Route exact path="/">
