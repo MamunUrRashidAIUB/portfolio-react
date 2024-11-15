@@ -4,7 +4,7 @@ import MyPortfolio from "./components/MyPortfolio";
 import Projects from "./components/Projects";
 import Currentwork from "./components/Currentwork";
 import Contact from "./components/Contact";
-import ConnectWithMe from "./components/Connectwithme";
+
 import { Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Skills from "./components/Skills";
