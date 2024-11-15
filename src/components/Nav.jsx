@@ -17,31 +17,31 @@ const Nav = () => {
       <div className="hidden space-x-4 md:flex md:space-x-10 lg:space-x-20">
         <Link
           to="/"
-          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
         >
           Home
         </Link>
         <Link
           to="/about"
-          className="cursor-pointer rounded-full border-2 border-cyan-100 px-2 hover:bg-cyan-200 hover:text-black"
+          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
         >
           About
         </Link>
         <Link
           to="/projects"
-          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
         >
           Projects
         </Link>
         <Link
           to="/skills"
-          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
         >
           Skills
         </Link>
         <Link
           to="/contact"
-          className="cursor-pointer rounded-full border-2 px-2 hover:bg-cyan-200 hover:text-black"
+          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
         >
           Contact
         </Link>
