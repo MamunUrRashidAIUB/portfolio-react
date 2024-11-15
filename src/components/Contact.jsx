@@ -18,6 +18,11 @@ const Contact = () => {
             <span className="mx-2"></span>
             {renderAnimatedText(text2)}
           </h2>
+          <p className="pb-4 text-red-500">
+            This is currently not working. You can contact me through my
+            LinkedIn, Facebook, or email. scroll down to see the links.
+          </p>
+
           <form action="#" method="post">
             <input
               type="text"
