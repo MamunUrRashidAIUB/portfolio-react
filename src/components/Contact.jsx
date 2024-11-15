@@ -76,6 +76,7 @@ const Contact = () => {
             className="rounded-lg"
             allowFullScreen=""
             loading="lazy"
+            style={{ filter: "contrast(0.6) brightness(0.4)" }}
           ></iframe>
           {/* Location Details Overlay */}
           <div className="absolute left-4 top-4 rounded-lg bg-cyan-400 bg-opacity-80 p-4 text-sm text-black shadow-md sm:left-4 sm:top-4 sm:text-base">
