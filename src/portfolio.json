@@ -15,16 +15,9 @@
     "image": "Photos/educityreact.png",
     "link": "https://educity-eta.vercel.app/"
   },
+
   {
     "id": 3,
-    "title": "Simple Login ",
-    "description": "A simple login for just for practice",
-    "technologies": ["HTML", "tailwind"],
-    "image": "Photos/logintemp.png",
-    "link": "https://login-page-template1.vercel.app/"
-  },
-  {
-    "id": 4,
     "title": "Personal Portfolio",
     "description": "A personal portfolio website to showcase my projects and skills, built using PHP , HTML, CSS . it also admin panel to manage the projects and also to add new projects.i can also add blog post.it also very responsive. this is also on live server anyone can see it.",
     "technologies": ["PHP", "CSS", "HTML"],
@@ -32,11 +25,19 @@
     "link": "http://rashidontheway.rf.gd/"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Perfume Shop",
     "description": "A perfume shop website to showcase my projects and skills, built using React.js,tailwindcss",
-    "technologies": ["React.js", "tailwindcss"],
+    "technologies": ["React.js", "tailwindcss", "Framer Motion"],
     "image": "Photos/perfume.png",
     "link": "https://perfumeshop-frontend.netlify.app/"
+  },
+  {
+    "id": 5,
+    "title": "Simple Login ",
+    "description": "A simple login for just for practice",
+    "technologies": ["HTML", "tailwind"],
+    "image": "Photos/logintemp.png",
+    "link": "https://login-page-template1.vercel.app/"
   }
 ]
