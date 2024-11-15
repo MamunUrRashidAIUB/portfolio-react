@@ -14,7 +14,7 @@ const Contact = () => {
     >
       <ConnectWithMe />
       <div className="flex flex-col md:flex-row">
-        <div className="contact-form rounded-lg bg-black p-6 shadow-lg md:mr-4 md:w-1/2">
+        <div className="contact-form rounded-lg bg-black shadow-lg md:mr-4 md:w-1/2">
           <h2 className="pb-5 text-4xl font-bold uppercase text-cyan-400 sm:text-6xl md:text-4xl lg:text-6xl">
             {renderAnimatedText(text1)}
             <span className="mx-2"></span>
