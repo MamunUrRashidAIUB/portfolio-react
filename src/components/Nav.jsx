@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <nav className="flex w-full items-center justify-between px-4">
       {/* Left Side - Your Name */}
-      <div className="border-2 px-5 text-2xl font-bold text-white">
+      <div className=" px-5 text-2xl font-bold text-cyan-300">
         {" "}
         <Link to="/">RASHID</Link>{" "}
       </div>
