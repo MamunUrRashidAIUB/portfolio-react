@@ -8,42 +8,58 @@ const Nav = () => {
   return (
     <nav className="flex w-full items-center justify-between px-4">
       {/* Left Side - Your Name */}
-      <div className=" px-5 text-2xl font-bold text-cyan-300">
+      <div className="px-5 text-2xl font-bold text-cyan-300">
         {" "}
         <Link to="/">RASHID</Link>{" "}
       </div>
 
       {/* Desktop Navigation */}
+      {/* Desktop Navigation */}
       <div className="hidden space-x-4 md:flex md:space-x-10 lg:space-x-20">
         <Link
           to="/"
-          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
+          className="group relative cursor-pointer overflow-hidden rounded-full border-2 border-cyan-200 px-2 py-1"
         >
-          Home
+          <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
+          <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
+            Home
+          </span>
         </Link>
         <Link
           to="/about"
-          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
+          className="group relative cursor-pointer overflow-hidden rounded-full border-2 border-cyan-200 px-2 py-1"
         >
-          About
+          <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
+          <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
+            About
+          </span>
         </Link>
         <Link
           to="/projects"
-          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
+          className="group relative cursor-pointer overflow-hidden rounded-full border-2 border-cyan-200 px-2 py-1"
         >
-          Projects
+          <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
+          <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
+            Projects
+          </span>
         </Link>
         <Link
           to="/skills"
-          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
+          className="group relative cursor-pointer overflow-hidden rounded-full border-2 border-cyan-200 px-2 py-1"
         >
-          Skills
+          <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
+          <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
+            Skills
+          </span>
         </Link>
         <Link
           to="/contact"
-          className="cursor-pointer rounded-full border-2 border-cyan-200 px-2 hover:bg-cyan-200 hover:text-black"
+          className="group relative cursor-pointer overflow-hidden rounded-full border-2 border-cyan-200 px-2 py-1"
         >
-          Contact
+          <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
+          <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
+            Contact
+          </span>
         </Link>
       </div>
 
