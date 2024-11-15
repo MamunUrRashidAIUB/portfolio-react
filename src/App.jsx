@@ -8,7 +8,6 @@ import ConnectWithMe from "./components/Connectwithme";
 import { Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -21,7 +20,6 @@ const App = () => {
           <Projects />
           <Currentwork />
           <Contact />
-          <Footer />
         </Route>
         <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
