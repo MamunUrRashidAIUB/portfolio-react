@@ -4,6 +4,7 @@ import animation from "./animation/facebook2.json";
 import animation2 from "./animation/github3.json";
 import animation3 from "./animation/youtube.json";
 import animation4 from "./animation/linkdin.json";
+import animation5 from "./animation/whatsapp2.json";
 
 const ConnectWithMe = () => {
   const text1 = "Connect";
@@ -20,6 +21,14 @@ const ConnectWithMe = () => {
           {renderAnimatedText(text3)}
         </h1>
         <div className="mt-5 flex flex-wrap justify-center gap-2">
+          <a
+            href="https://wa.me/8801880299555"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-36 lg:w-36"
+          >
+            <Lottie animationData={animation5} />
+          </a>
           <a
             href="https://www.facebook.com/profile.php?id=100026601601848"
             target="_blank"
