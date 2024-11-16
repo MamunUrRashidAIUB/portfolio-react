@@ -52,7 +52,7 @@ const Intro = () => {
             )}
           </h1>
           <h1 className="pb-3 pl-3 pt-10">
-            Full-Stack Developer | React.js| Tailwind CSS| JavaScript
+            Full-Stack Developer | React.js| Tailwind CSS| JavaScript| MongoDB
           </h1>
 
           <div className="p-6 pl-16">
