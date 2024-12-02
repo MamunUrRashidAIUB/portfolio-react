@@ -18,6 +18,7 @@
     "react-router-dom": "^5.3.4",
     "react-scroll": "^1.9.0",
     "react-tsparticles": "^2.12.2",
+    "smooth-scrollbar": "^8.8.4",
     "tsparticles": "^3.5.0"
   },
   "devDependencies": {

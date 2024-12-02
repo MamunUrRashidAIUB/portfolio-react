@@ -9,12 +9,14 @@ import { Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Notice from "./components/Notice";
+// import Scroll from "./components/SmoothScroll";
 
 const App = () => {
   return (
     <>
       <Notice />
       <Header />
+      {/* <Scroll /> */}
       <Switch>
         <Route exact path="/">
           <Intro />
