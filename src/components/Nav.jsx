@@ -71,23 +71,38 @@ const Nav = () => {
       {/* Mobile Navigation */}
       {/* Mobile Navigation */}
       <div
-        className={`absolute left-0 top-16 flex h-screen w-1/2 flex-col items-center bg-black py-4 text-white transition-transform duration-700 ease-in-out md:hidden ${
+        className={`absolute left-0 top-16 flex h-screen w-1/2 flex-col items-center gap-5 bg-black py-4 text-white transition-transform duration-700 ease-in-out md:hidden ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <Link to="/" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/"
+          className="w-full cursor-pointer border-b-2 border-cyan-400 py-2 text-center hover:text-cyan-400"
+        >
           Home
         </Link>
-        <Link to="/about" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/about"
+          className="w-full cursor-pointer border-b-2 border-cyan-400 py-2 text-center hover:text-cyan-400"
+        >
           About
         </Link>
-        <Link to="/projects" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/projects"
+          className="w-full cursor-pointer border-b-2 border-cyan-400 py-2 text-center hover:text-cyan-400"
+        >
           Projects
         </Link>
-        <Link to="/skills" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/skills"
+          className="w-full cursor-pointer border-b-2 border-cyan-400 py-2 text-center hover:text-cyan-400"
+        >
           Skills
         </Link>
-        <Link to="/contact" className="cursor-pointer hover:text-cyan-400">
+        <Link
+          to="/contact"
+          className="w-full cursor-pointer border-b-2 border-cyan-400 py-2 text-center hover:text-cyan-400"
+        >
           Contact
         </Link>
       </div>
