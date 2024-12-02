@@ -13,7 +13,7 @@ import Notice from "./components/Notice";
 const App = () => {
   return (
     <>
-    <Notice/>
+      <Notice />
       <Header />
       <Switch>
         <Route exact path="/">
