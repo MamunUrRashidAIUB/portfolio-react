@@ -69,9 +69,10 @@ const Nav = () => {
       </button>
 
       {/* Mobile Navigation */}
+      {/* Mobile Navigation */}
       <div
-        className={`absolute left-0 top-16 w-full flex-col items-center bg-black py-4 text-white transition-all duration-700 ease-in-out md:hidden ${
-          isOpen ? "flex opacity-100" : "hidden opacity-0"
+        className={`absolute left-0 top-16 flex h-screen w-1/2 flex-col items-center bg-black py-4 text-white transition-transform duration-700 ease-in-out md:hidden ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         <Link to="/" className="cursor-pointer hover:text-cyan-400">
