@@ -9,8 +9,8 @@ const Intro = () => {
 
   const text1 = "Hi";
   const text2Part1 = "I'm";
-  const text2Part2 = "Rashid,";
-  const text3Part1 = "Web";
+  const text2Part2 = "Rashid";
+  const text3Part1 = "Full-Stack";
   const text3Part2 = "Developer";
 
   const handleButtonClick = () => {
@@ -37,7 +37,7 @@ const Intro = () => {
           </h1>
 
           {/* Web Developer Text */}
-          <h1 className="mt-2 text-4xl sm:text-7xl md:text-7xl lg:text-8xl">
+          <h1 className="mt-2 text-3xl sm:text-8xl md:text-7xl lg:text-5xl">
             {renderAnimatedText(
               text3Part1,
               text1.length + text2Part1.length + text2Part2.length,
