@@ -64,7 +64,7 @@ const Intro = () => {
           </div>
           <div className="mt-4">
             <a
-              href="/cv.pdf"
+              href="/CV_Mamun_Ur_Rashid.pdf"
               download="cv.pdf"
               className="group relative inline-block overflow-hidden rounded border border-cyan-400 bg-black px-5 py-2 font-medium text-cyan-400"
             >
