@@ -1,19 +1,34 @@
 [
   {
+    "id": 4,
+    "title": "Perfume Shop",
+    "description": "A perfume shop website to showcase my projects and skills, built using React.js,tailwindcss",
+    "technologies": ["React.js", "tailwindcss", "Framer Motion"],
+    "image": "Photos/perfume.png",
+    "link": "https://perfumeshop-frontend.netlify.app/"
+  },
+  {
+    "id": 5,
+    "title": "E-commerce Website",
+    "description": "A E-commerce website to showcase my projects and skills, built using React.js here user can add product to cart and also can remove product from cart. user can also checkout the product. user can also see the product details. its has also admin panel to manage the product and also to add new product.",
+    "technologies": [
+      "React.js",
+      "tailwindcss",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase"
+    ],
+    "image": "Photos/img1.png",
+    "link": "https://itskhushbu.netlify.app/"
+  },
+  {
     "id": 1,
     "title": "Job Portal",
     "description": "A Job Portal Windows application to showcase my projects and skills, built using C# and Windows forms.",
-    "technologies": ["C#", "Windows Form"],
+    "technologies": ["C#", "Windows Form", "SQL Server"],
     "image": "./Photos/csharpreact.png",
     "link": "https://github.com/azizulbappy0096/JobPortal-.NET"
-  },
-  {
-    "id": 2,
-    "title": "Edusity",
-    "description": "A University website sample to showcase my projects and skills, built using React and Node.js.",
-    "technologies": ["React.js", "JavaScript"],
-    "image": "Photos/educityreact.png",
-    "link": "https://educity-eta.vercel.app/"
   },
 
   {
@@ -25,19 +40,11 @@
     "link": "http://rashidontheway.rf.gd/"
   },
   {
-    "id": 4,
-    "title": "Perfume Shop",
-    "description": "A perfume shop website to showcase my projects and skills, built using React.js,tailwindcss",
-    "technologies": ["React.js", "tailwindcss", "Framer Motion"],
-    "image": "Photos/perfume.png",
-    "link": "https://perfumeshop-frontend.netlify.app/"
-  },
-  {
-    "id": 5,
-    "title": "Simple Login ",
-    "description": "A simple login for just for practice",
-    "technologies": ["HTML", "tailwind"],
-    "image": "Photos/logintemp.png",
-    "link": "https://login-page-template1.vercel.app/"
+    "id": 2,
+    "title": "Edusity",
+    "description": "A University website sample to showcase my projects and skills, built using React and Node.js.",
+    "technologies": ["React.js", "JavaScript"],
+    "image": "Photos/educityreact.png",
+    "link": "https://educity-eta.vercel.app/"
   }
 ]
