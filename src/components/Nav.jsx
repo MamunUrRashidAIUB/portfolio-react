@@ -18,7 +18,7 @@ const Nav = () => {
       <div className="hidden space-x-4 md:flex md:space-x-10 lg:space-x-20">
         <Link
           to="/"
-          className="group relative cursor-pointer overflow-hidden rounded-sm border-2 border-cyan-200 px-2 py-1"
+          className="group relative cursor-pointer overflow-hidden px-2 py-1"
         >
           <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
           <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
@@ -27,7 +27,7 @@ const Nav = () => {
         </Link>
         <Link
           to="/about"
-          className="group relative cursor-pointer overflow-hidden rounded-sm border-2 border-cyan-200 px-2 py-1"
+          className="group relative cursor-pointer overflow-hidden px-2 py-1"
         >
           <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
           <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
@@ -36,7 +36,7 @@ const Nav = () => {
         </Link>
         <Link
           to="/projects"
-          className="group relative cursor-pointer overflow-hidden rounded-sm border-2 border-cyan-200 px-2 py-1"
+          className="group relative cursor-pointer overflow-hidden px-2 py-1"
         >
           <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
           <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
@@ -45,7 +45,7 @@ const Nav = () => {
         </Link>
         <Link
           to="/skills"
-          className="group relative cursor-pointer overflow-hidden rounded-sm border-2 border-cyan-200 px-2 py-1"
+          className="group relative cursor-pointer overflow-hidden px-2 py-1"
         >
           <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
           <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
@@ -54,7 +54,7 @@ const Nav = () => {
         </Link>
         <Link
           to="/contact"
-          className="group relative cursor-pointer overflow-hidden rounded-sm border-2 border-cyan-200 px-2 py-1"
+          className="group relative cursor-pointer overflow-hidden px-2 py-1"
         >
           <span className="absolute inset-0 origin-left scale-x-0 transform bg-cyan-200 transition-all duration-300 ease-out group-hover:scale-x-100"></span>
           <span className="relative transition-colors duration-300 ease-out group-hover:text-black">
