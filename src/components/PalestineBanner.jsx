@@ -7,7 +7,7 @@ export default function PalestineBanner() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-xs">
       <div className="w-full max-w-md rounded-lg bg-white p-8 text-center shadow-xl">
         <div className="relative mx-auto mb-6 h-48 w-64">
           <img
