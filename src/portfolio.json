@@ -23,6 +23,15 @@
     "link": "https://itskhushbu.netlify.app/"
   },
   {
+"id": 6,
+"title": "TriGardening",
+"description": "A Next.js + React garden shop/demo site showcasing products, blogs, and features. Includes responsive UI, product filtering, cart and pagination hooks, and reusable components. Its ongoing project for learning and practice.",
+"technologies": ["Next.js", "React", "CSS", "JavaScript"],
+"image": "Photos/trigardening.png",
+"link": "https://trigardening.netlify.app"
+},
+
+  {
     "id": 1,
     "title": "Job Portal",
     "description": "A Job Portal Windows application to showcase my projects and skills, built using C# and Windows forms.",
@@ -47,4 +56,5 @@
     "image": "Photos/educityreact.png",
     "link": "https://educity-eta.vercel.app/"
   }
+
 ]
