@@ -22,6 +22,23 @@
     "image": "Photos/img1.png",
     "link": "https://itskhushbu.netlify.app/"
   },
+
+  {
+  "id": 7,
+  "title": "Hotel Room Booking System",
+  "description": "A full-stack hotel room booking application built with Next.js and TypeScript on the frontend, and Node.js, Express, and MongoDB on the backend. The system supports room management (create, update, delete), room booking with availability control, and aggregated booking summaries. Designed with a real-world API structure, environment-based configuration, and deployed on Render for production readiness.",
+  "technologies": [
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Tailwind CSS"
+  ],
+  "image": "Photos/home.png",
+  "link": "https://hotel-room-booking-system-r.onrender.com/"
+}
+,
   {
 "id": 6,
 "title": "TriGardening",
@@ -55,6 +72,39 @@
     "technologies": ["React.js", "JavaScript"],
     "image": "Photos/educityreact.png",
     "link": "https://educity-eta.vercel.app/"
-  }
+  },
+  {
+  "id": 8,
+  "title": "E-commerce Backend API",
+  "description": "An ongoing RESTful backend API for an e-commerce platform built with Node.js, Express, and MongoDB. Features JWT-based authentication, role-based access control (user/admin), product management, cart handling, and order processing. Designed with scalable API structure, secure auth flow, and modular controllers for real-world backend development practice.",
+  "technologies": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "bcryptjs",
+    "REST API"
+  ],
+  "image": "Photos/backend.jpg",
+  "link": "https://github.com/MamunUrRashidAIUB/ecommerce-backend"
+},
+{
+  "id": 9,
+  "title": "FootLive",
+  "description": "A full-stack Next.js application that displays live football league standings and curated news. Built using the Next.js App Router with integrated backend route handlers that proxy the external API-Football service. The project combines server and client components, incremental revalidation for news, and a unified frontend-backend architecture in a single codebase. Currently an ongoing project focused on learning modern Next.js full-stack patterns.",
+  "technologies": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "REST API",
+    "API-Football",
+    "JavaScript"
+  ],
+  "image": "Photos/footlive.PNG",
+  "link": "https://github.com/your-github-username/footlive"
+}
+
+
 
 ]
