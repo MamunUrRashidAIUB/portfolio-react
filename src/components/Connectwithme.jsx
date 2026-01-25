@@ -39,7 +39,7 @@ const ConnectWithMe = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/md-mamun-ur-rashid-7a95ab251"
+            href="https://www.linkedin.com/in/mamun-ur-rashid-39a13a3a8"
             target="_blank"
             rel="noopener noreferrer"
             className="h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-36 lg:w-36"
