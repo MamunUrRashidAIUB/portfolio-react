@@ -1,8 +1,8 @@
-import Button from "./Button";
-import ConnectWithMe from "./Connectwithme";
-import Footer from "./Footer";
+import Button from "../components/common/Button";
+import ConnectWithMe from "../sections/Connectwithme";
+import Footer from "../components/layout/Footer";
 
-import { renderAnimatedText } from "./TextAnimation";
+import { renderAnimatedText } from "../components/common/TextAnimation";
 
 const Contact = () => {
   const text1 = "Contact";

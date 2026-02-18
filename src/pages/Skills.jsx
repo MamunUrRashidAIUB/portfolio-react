@@ -1,6 +1,6 @@
-import Footer from "./Footer";
-import Skillbar from "./Skillbar";
-import { renderAnimatedText } from "./TextAnimation";
+import Footer from "../components/layout/Footer";
+import Skillbar from "../components/ui/Skillbar";
+import { renderAnimatedText } from "../components/common/TextAnimation";
 
 const Skills = () => {
   const text1 = "Skills";

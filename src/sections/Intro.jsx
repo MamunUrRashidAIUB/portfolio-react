@@ -1,6 +1,6 @@
-import { renderAnimatedText } from "./TextAnimation";
-import Button from "./Button";
-import animation from "./animation/hello.json";
+import { renderAnimatedText } from "../components/common/TextAnimation";
+import Button from "../components/common/Button";
+import animation from "../assets/animations/hello.json";
 import Lottie from "lottie-react";
 import { useHistory } from "react-router-dom";
 

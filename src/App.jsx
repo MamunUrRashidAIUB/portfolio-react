@@ -1,15 +1,7 @@
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import MyPortfolio from "./components/MyPortfolio";
-import Projects from "./components/Projects";
-import Currentwork from "./components/Currentwork";
-import Contact from "./components/Contact";
-import ConnectWithMe from "./components/Connectwithme";
 import { Switch, Route } from "react-router-dom";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Notice from "./components/Notice";
-// import Scroll from "./components/SmoothScroll";
+import { Header, Notice } from "./components";
+import { About, Contact, Skills } from "./pages";
+import { Intro, MyPortfolio, Projects, Currentwork, ConnectWithMe } from "./sections";
 
 const App = () => {
   return (

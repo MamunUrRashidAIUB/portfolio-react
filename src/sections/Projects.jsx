@@ -1,4 +1,4 @@
-import portfoliodata from "../portfolio.json";
+import portfoliodata from "../data/portfolio.json";
 
 const Projects = () => {
   return (

@@ -1,5 +1,5 @@
-import { renderAnimatedText } from "./TextAnimation";
-import Button from "./Button";
+import { renderAnimatedText } from "../components/common/TextAnimation";
+import Button from "../components/common/Button";
 import{useHistory} from "react-router-dom";
 
 const MyPortfolio = () => {

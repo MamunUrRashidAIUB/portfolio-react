@@ -1,5 +1,5 @@
-import { renderAnimatedText } from "./TextAnimation";
-import animation from "./animation/developer.json";
+import { renderAnimatedText } from "../components/common/TextAnimation";
+import animation from "../assets/animations/developer.json";
 import Lottie from "lottie-react";
 
 const Currentwork = () => {

@@ -1,10 +1,10 @@
-import { renderAnimatedText } from "./TextAnimation";
+import { renderAnimatedText } from "../components/common/TextAnimation";
 import Lottie from "lottie-react";
-import animation from "./animation/facebook2.json";
-import animation2 from "./animation/github3.json";
-import animation3 from "./animation/youtube.json";
-import animation4 from "./animation/linkdin.json";
-import animation5 from "./animation/whatsapp2.json";
+import animation from "../assets/animations/facebook2.json";
+import animation2 from "../assets/animations/github3.json";
+import animation3 from "../assets/animations/youtube.json";
+import animation4 from "../assets/animations/linkdin.json";
+import animation5 from "../assets/animations/whatsapp2.json";
 
 const ConnectWithMe = () => {
   const text1 = "Connect";
