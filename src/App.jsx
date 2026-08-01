@@ -23,8 +23,9 @@ const App = () => {
       <div className="relative z-10">
         <Notice />
         <Header />
-        <Suspense fallback={null}>
-          <Switch>
+        <main>
+          <Suspense fallback={null}>
+            <Switch>
             <Route exact path="/">
               <Intro />
               <MyPortfolio />
@@ -51,6 +52,7 @@ const App = () => {
             <Route path="/connectwithme" component={ConnectWithMe} />
           </Switch>
         </Suspense>
+      </main>
       </div>
     </>
   );

@@ -26,9 +26,9 @@ const Intro = () => {
       <div className="flex-1">
         <div className="font-comforter">
           {/* Hi Text */}
-          <h1 className="text-xl font-bold text-cyan-400 sm:text-7xl md:text-8xl lg:text-8xl">
+          <p className="text-xl font-bold text-cyan-400 sm:text-7xl md:text-8xl lg:text-8xl">
             {renderAnimatedText(text1)}
-          </h1>
+          </p>
 
           {/* I'm Rashid Text */}
           <h1 className="mt-2 text-5xl text-cyan-400 sm:text-7xl md:text-7xl lg:text-8xl">
@@ -41,7 +41,7 @@ const Intro = () => {
           </h1>
 
           {/* Web Developer Text */}
-          <h1 className="mt-2 text-3xl text-cyan-400 sm:text-8xl md:text-7xl lg:text-5xl">
+          <p className="mt-2 text-3xl text-cyan-400 sm:text-8xl md:text-7xl lg:text-5xl">
             {renderAnimatedText(
               text3Part1,
               text1.length + text2Part1.length + text2Part2.length,
@@ -54,10 +54,10 @@ const Intro = () => {
                 text2Part2.length +
                 text3Part1.length,
             )}
-          </h1>
-          <h1 className="pb-3 pl-3 pt-10">
+          </p>
+          <p className="pb-3 pl-3 pt-10">
             Full-Stack Developer | React.js| Tailwind CSS| JavaScript| MongoDB
-          </h1>
+          </p>
 
           <div className="p-6 pl-16">
             <Button
