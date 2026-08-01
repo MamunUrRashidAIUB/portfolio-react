@@ -25,19 +25,22 @@ const Intro = () => {
       <div className="flex-1">
         <div className="font-comforter">
           {/* Hi Text */}
-          <h1 className="text-xl font-bold sm:text-7xl md:text-8xl lg:text-8xl">
+          <h1 className="text-xl font-bold text-cyan-400 sm:text-7xl md:text-8xl lg:text-8xl">
             {renderAnimatedText(text1)}
           </h1>
 
           {/* I'm Rashid Text */}
-          <h1 className="mt-2 text-5xl sm:text-7xl md:text-7xl lg:text-8xl">
-            {renderAnimatedText(text2Part1)}
+          <h1 className="mt-2 text-5xl text-cyan-400 sm:text-7xl md:text-7xl lg:text-8xl">
+            {renderAnimatedText(text2Part1, text1.length)}
             <span className="mx-2"></span>
-            {renderAnimatedText(text2Part2)}
+            {renderAnimatedText(
+              text2Part2,
+              text1.length + text2Part1.length,
+            )}
           </h1>
 
           {/* Web Developer Text */}
-          <h1 className="mt-2 text-3xl sm:text-8xl md:text-7xl lg:text-5xl">
+          <h1 className="mt-2 text-3xl text-cyan-400 sm:text-8xl md:text-7xl lg:text-5xl">
             {renderAnimatedText(
               text3Part1,
               text1.length + text2Part1.length + text2Part2.length,
