@@ -11,9 +11,9 @@ const ConnectWithMe = () => {
   const text2 = "With";
   const text3 = "Me";
   return (
-    <div id="connectwithme" className="bg-black py-11">
+    <div id="connectwithme" className="py-11">
       <div className="text-center">
-        <h1 className="bg-black pb-5 text-3xl font-bold uppercase text-cyan-400 sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="pb-5 text-3xl font-bold uppercase text-cyan-400 sm:text-5xl md:text-6xl lg:text-7xl">
           {renderAnimatedText(text1)}
           <span className="mx-2"></span>
           {renderAnimatedText(text2)}

@@ -14,7 +14,7 @@ const handleButtonClick =()=>{
   const textpart2 = "Portfolio";
 
   return (
-    <div className="p-6 sm:p-12 text-white bg-black lg:pl-30">
+    <div className="p-6 sm:p-12 text-white lg:pl-30">
       <div className="font-comforter">
         <h2 className="text-4xl  text-cyan-400 sm:text-6xl md:text-8xl lg:text-6xl font-bold">
           {renderAnimatedText(textpart1)}

@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       <section
         id="contact"
-        className="flex min-h-screen flex-col items-center justify-center bg-black p-1 text-white sm:p-12"
+        className="flex min-h-screen flex-col items-center justify-center p-1 text-white sm:p-12"
       >
         <ConnectWithMe />
       </section>

@@ -11,7 +11,7 @@ const Currentwork = () => {
   return (
     <div
       id="currentwork"
-      className="lg:pl-30 flex flex-col bg-black p-6 text-white sm:p-12 lg:flex-row"
+      className="lg:pl-30 flex flex-col p-6 text-white sm:p-12 lg:flex-row"
     >
       <div className="flex-1">
         <div className="font-comforter">

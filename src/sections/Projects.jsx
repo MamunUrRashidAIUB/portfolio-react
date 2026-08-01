@@ -2,7 +2,7 @@ import portfoliodata from "../data/portfolio.json";
 
 const Projects = () => {
   return (
-    <div id="projects" className="p-4 bg-black text-white min-h-screen">
+    <div id="projects" className="p-4 text-white min-h-screen">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {portfoliodata.map((project) => (
           <div
