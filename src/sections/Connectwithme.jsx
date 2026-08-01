@@ -55,7 +55,7 @@ const ConnectWithMe = () => {
             <Lottie animationData={animation2} />
           </a>
           <a
-            href="https://www.youtube.com/@MD.MamunUrRashid-vy2ej"
+            href="https://www.youtube.com/@Jhon-wick-007"
             target="_blank"
             rel="noopener noreferrer"
             className="h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-36 lg:w-36"
