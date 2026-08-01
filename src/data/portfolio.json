@@ -4,7 +4,7 @@
     "title": "Perfume Shop",
     "description": "A perfume shop website to showcase my projects and skills, built using React.js,tailwindcss",
     "technologies": ["React.js", "tailwindcss", "Framer Motion"],
-    "image": "Photos/perfume.png",
+    "image": "Photos/perfume.webp",
     "link": "https://perfumeshop-frontend.netlify.app/"
   },
   {
@@ -19,7 +19,7 @@
       "MongoDB",
       "Firebase"
     ],
-    "image": "Photos/img1.png",
+    "image": "Photos/img1.webp",
     "link": "https://itskhushbu.netlify.app/"
   },
 
@@ -35,7 +35,7 @@
     "MongoDB",
     "Tailwind CSS"
   ],
-  "image": "Photos/home.png",
+  "image": "Photos/home.webp",
   "link": "https://hotel-room-booking-system-r.onrender.com/"
 }
 ,
@@ -44,7 +44,7 @@
 "title": "TriGardening",
 "description": "A Next.js + React garden shop/demo site showcasing products, blogs, and features. Includes responsive UI, product filtering, cart and pagination hooks, and reusable components. Its ongoing project for learning and practice.",
 "technologies": ["Next.js", "React", "CSS", "JavaScript"],
-"image": "Photos/trigardening.png",
+"image": "Photos/trigardening.webp",
 "link": "https://trigardening.netlify.app"
 },
 
@@ -53,7 +53,7 @@
     "title": "Job Portal",
     "description": "A Job Portal Windows application to showcase my projects and skills, built using C# and Windows forms.",
     "technologies": ["C#", "Windows Form", "SQL Server"],
-    "image": "./Photos/csharpreact.png",
+    "image": "./Photos/csharpreact.webp",
     "link": "https://github.com/azizulbappy0096/JobPortal-.NET"
   },
 
@@ -62,7 +62,7 @@
     "title": "Personal Portfolio",
     "description": "A personal portfolio website to showcase my projects and skills, built using PHP , HTML, CSS . it also admin panel to manage the projects and also to add new projects.i can also add blog post.it also very responsive. this is also on live server anyone can see it.",
     "technologies": ["PHP", "CSS", "HTML"],
-    "image": "Photos/myportfolio.png",
+    "image": "Photos/myportfolio.webp",
     "link": "http://rashidontheway.rf.gd/"
   },
   {
@@ -70,7 +70,7 @@
     "title": "Edusity",
     "description": "A University website sample to showcase my projects and skills, built using React and Node.js.",
     "technologies": ["React.js", "JavaScript"],
-    "image": "Photos/educityreact.png",
+    "image": "Photos/educityreact.webp",
     "link": "https://educity-eta.vercel.app/"
   },
   {
@@ -86,7 +86,7 @@
     "bcryptjs",
     "REST API"
   ],
-  "image": "Photos/backend.jpg",
+  "image": "Photos/backend.webp",
   "link": "https://github.com/MamunUrRashidAIUB/ecommerce-backend"
 },
 {
@@ -101,7 +101,7 @@
     "API-Football",
     "JavaScript"
   ],
-  "image": "Photos/footlive.PNG",
+  "image": "Photos/footlive.webp",
   "link": "https://github.com/your-github-username/footlive"
 }
 

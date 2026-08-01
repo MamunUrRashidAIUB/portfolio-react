@@ -48,12 +48,13 @@ const Projects = () => {
               className="group flex flex-col overflow-hidden rounded-xl border border-white/10 bg-black/50"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  loading="lazy"
-                  className="h-full w-full object-cover transition-transform duration-500 motion-reduce:transition-none group-hover:scale-105"
-                />
+            <img
+              src={project.image}
+              alt={project.title}
+              loading="lazy"
+              decoding="async"
+              className="w-full h-48 object-cover mb-2 transition-transform duration-500 ease-in-out group-hover:blur-sm group-hover:scale-105"
+            />
               </div>
               <div className="flex flex-1 flex-col p-5">
                 <h3 className="text-lg font-semibold text-white">

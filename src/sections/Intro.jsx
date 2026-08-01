@@ -1,8 +1,9 @@
+import { lazy, Suspense } from "react";
 import { renderAnimatedText } from "../components/common/TextAnimation";
 import Button from "../components/common/Button";
-import animation from "../assets/animations/hello.json";
-import Lottie from "lottie-react";
 import { useHistory } from "react-router-dom";
+
+const HeroLottie = lazy(() => import("../components/ui/HeroLottie"));
 
 const Intro = () => {
   const history = useHistory();
@@ -81,7 +82,9 @@ const Intro = () => {
       </div>
 
       <div className="flex flex-1 justify-center lg:pl-8">
-        <Lottie animationData={animation} className="h-full w-full" />
+        <Suspense fallback={<div className="h-full w-full" aria-hidden="true" />}>
+          <HeroLottie />
+        </Suspense>
       </div>
     </div>
   );
