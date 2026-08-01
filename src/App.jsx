@@ -3,6 +3,8 @@ import { Header, Notice } from "./components";
 import { About, Contact, Skills } from "./pages";
 import { Intro, MyPortfolio, Projects, Currentwork, ConnectWithMe } from "./sections";
 import KineticGrid from "./components/ui/KineticGrid";
+import TechStack from "./components/techstack/TechStack";
+import Experience from "./components/experience/Experience";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
             <Intro />
             <MyPortfolio />
             <Projects />
+            <Experience className="p-6 sm:p-12 lg:pl-30" />
+            <TechStack className="p-6 sm:p-12 lg:pl-30" />
             <Currentwork />
             <Contact />
           </Route>

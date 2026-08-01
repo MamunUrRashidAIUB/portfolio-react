@@ -35,36 +35,4 @@ export const EXPERIENCE = [
       "Fixing production bugs and improving application reliability",
     ],
   },
-  {
-    role: "Independent Full-Stack Developer",
-    company: "Independent",
-    period: "2024 – Present",
-    initials: "FS",
-    description:
-      "Building and shipping my own full-stack applications — e-commerce platforms, a hotel booking system, and REST APIs — to deepen my skills across the entire stack and deliver production-ready software.",
-    responsibilities: [
-      "Designing and building full-stack applications from scratch",
-      "Implementing REST APIs with authentication and role-based access control",
-      "Integrating MongoDB and MySQL databases",
-      "Deploying and maintaining live applications on Vercel and Render",
-    ],
-    technologies: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "MySQL",
-      "Tailwind CSS",
-      "Git",
-      "Vercel",
-      "Render",
-    ],
-    achievements: [
-      "Shipped 10+ projects, including several full-stack applications",
-      "Maintained live deployments and iterated based on real usage",
-      "Continuously learning modern patterns like TypeScript and testing",
-    ],
-  },
 ];

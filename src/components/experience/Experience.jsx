@@ -1,9 +1,10 @@
 import { motion, useReducedMotion } from "framer-motion";
+import PropTypes from "prop-types";
 import { renderAnimatedText } from "../common/TextAnimation";
 import TimelineItem from "./TimelineItem";
 import { EXPERIENCE } from "./data";
 
-const Experience = () => {
+const Experience = ({ className = "mt-20" }) => {
   const prefersReducedMotion = useReducedMotion();
   const title1 = "My";
   const title2 = "Experience";
@@ -12,7 +13,7 @@ const Experience = () => {
     <section
       id="experience"
       aria-labelledby="experience-heading"
-      className="mt-20"
+      className={className}
     >
       <div className="font-comforter">
         <h2
@@ -42,6 +43,10 @@ const Experience = () => {
       </ol>
     </section>
   );
+};
+
+Experience.propTypes = {
+  className: PropTypes.string,
 };
 
 export default Experience;

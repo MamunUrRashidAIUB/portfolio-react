@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
 import { motion, useReducedMotion } from "framer-motion";
+import PropTypes from "prop-types";
 import { renderAnimatedText } from "../common/TextAnimation";
 import TechCategory from "./TechCategory";
 import CurrentFocus from "./CurrentFocus";
 import { STACK, IMPROVING } from "./data";
 
-const TechStack = () => {
+const TechStack = ({ className = "" }) => {
   const prefersReducedMotion = useReducedMotion();
   const title1 = "Tech";
   const title2 = "Stack";
 
   return (
-    <section id="skills" aria-labelledby="tech-stack-heading">
+    <section id="skills" aria-labelledby="tech-stack-heading" className={className}>
       <h2
         id="tech-stack-heading"
         className="text-4xl font-bold text-cyan-400 sm:text-6xl md:text-7xl lg:text-6xl"
@@ -54,6 +55,10 @@ const TechStack = () => {
       </div>
     </section>
   );
+};
+
+TechStack.propTypes = {
+  className: PropTypes.string,
 };
 
 export default TechStack;
