@@ -4,7 +4,7 @@
     "title": "Perfume Shop",
     "description": "A perfume shop website to showcase my projects and skills, built using React.js,tailwindcss",
     "technologies": ["React.js", "tailwindcss", "Framer Motion"],
-    "image": "Photos/perfume.webp",
+    "image": "Photos/perfume-shop.webp",
     "link": "https://perfumeshop-frontend.netlify.app/"
   },
   {
@@ -19,7 +19,7 @@
       "MongoDB",
       "Firebase"
     ],
-    "image": "Photos/img1.webp",
+    "image": "Photos/ecommerce-platform.webp",
     "link": "https://itskhushbu.netlify.app/"
   },
 
@@ -35,7 +35,7 @@
     "MongoDB",
     "Tailwind CSS"
   ],
-  "image": "Photos/home.webp",
+  "image": "Photos/hotel-booking-system.webp",
   "link": "https://hotel-room-booking-system-r.onrender.com/"
 }
 ,
@@ -53,7 +53,7 @@
     "title": "Job Portal",
     "description": "A Job Portal Windows application to showcase my projects and skills, built using C# and Windows forms.",
     "technologies": ["C#", "Windows Form", "SQL Server"],
-    "image": "./Photos/csharpreact.webp",
+    "image": "./Photos/job-portal.webp",
     "link": "https://github.com/azizulbappy0096/JobPortal-.NET"
   },
 
@@ -62,7 +62,7 @@
     "title": "Personal Portfolio",
     "description": "A personal portfolio website to showcase my projects and skills, built using PHP , HTML, CSS . it also admin panel to manage the projects and also to add new projects.i can also add blog post.it also very responsive. this is also on live server anyone can see it.",
     "technologies": ["PHP", "CSS", "HTML"],
-    "image": "Photos/myportfolio.webp",
+    "image": "Photos/php-portfolio.webp",
     "link": "http://rashidontheway.rf.gd/"
   },
   {
@@ -70,7 +70,7 @@
     "title": "Edusity",
     "description": "A University website sample to showcase my projects and skills, built using React and Node.js.",
     "technologies": ["React.js", "JavaScript"],
-    "image": "Photos/educityreact.webp",
+    "image": "Photos/edusity.webp",
     "link": "https://educity-eta.vercel.app/"
   },
   {
@@ -86,7 +86,7 @@
     "bcryptjs",
     "REST API"
   ],
-  "image": "Photos/backend.webp",
+  "image": "Photos/ecommerce-backend-api.webp",
   "link": "https://github.com/MamunUrRashidAIUB/ecommerce-backend"
 },
 {

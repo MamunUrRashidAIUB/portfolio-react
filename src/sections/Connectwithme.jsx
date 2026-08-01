@@ -13,13 +13,13 @@ const ConnectWithMe = () => {
   return (
     <div id="connectwithme" className="py-11">
       <div className="text-center">
-        <h1 className="pb-5 text-3xl font-bold uppercase text-cyan-400 sm:text-5xl md:text-6xl lg:text-7xl">
+        <h2 className="pb-5 text-3xl font-bold uppercase text-cyan-400 sm:text-5xl md:text-6xl lg:text-7xl">
           {renderAnimatedText(text1)}
           <span className="mx-2"></span>
           {renderAnimatedText(text2)}
           <span className="mx-2"></span>
           {renderAnimatedText(text3)}
-        </h1>
+        </h2>
         <div className="mt-5 flex flex-wrap justify-center gap-2">
           <a
             href="https://wa.me/8801880299555"

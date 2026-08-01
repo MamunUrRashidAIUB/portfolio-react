@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mdmamunurrashid.vercel.app/sitemap.xml

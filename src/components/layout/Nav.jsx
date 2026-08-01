@@ -6,7 +6,7 @@ const Nav = () => {
   const toggleNavbar = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="flex w-full items-center justify-between px-4">
+    <nav className="flex w-full items-center justify-between px-4" aria-label="Main navigation">
       {/* Left Side - Your Name */}
       <div className="px-5 text-2xl font-bold text-cyan-300">
         {" "}
@@ -64,7 +64,12 @@ const Nav = () => {
       </div>
 
       {/* Mobile Menu Button */}
-      <button onClick={toggleNavbar} className="text-2xl text-white md:hidden">
+      <button
+        onClick={toggleNavbar}
+        aria-label={isOpen ? "Close menu" : "Open menu"}
+        aria-expanded={isOpen}
+        className="text-2xl text-white md:hidden"
+      >
         {isOpen ? "✕" : "|||"}
       </button>
 
